@@ -1,5 +1,5 @@
 {
-  "name": "athenapdf",
+  "name": "athenapdf-cli",
   "version": "2.11.0",
   "description": "A simple CLI tool to convert HTML to PDF from a local file or a URL to a web page using Electron (Chromium).",
   "keywords": "electron, chrome, cli, html, pdf, converter, generate",
