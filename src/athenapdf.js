@@ -157,7 +157,8 @@ const _complete = () => {
 };
 
 const _output = (data) => {
-    const outputPath = path.join(process.cwd(), outputArg);
+    const outputPath = path.join(outputArg);
+
     if (athena.stdout) {
         process.stdout.write(data, _complete);
     } else {
